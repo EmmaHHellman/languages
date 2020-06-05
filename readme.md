@@ -1,17 +1,16 @@
 # _Portfolio Website_
 
-#### _A website showcasing my skills, June 5, 2020_
+#### _A website for picking a user's favorite programming language, June 5, 2020_
 
 #### By _**Emma Hellman**_
 
 ## Description
 
-_The website details my work history, goals and favorite activities. It gives a complete picture of who I am and 
-where I want to be. To view website go to https://emmahhellman.github.io/portfolio/_
+_The website allows users to select answers from a variety of survey questions. Depending on their responses, a programming language suited for them will be generated._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/EmmaHHellman/portfolio.git_
+* _Clone this repository https://github.com/EmmaHHellman/languages.git_
 * _Open index file in browser_
 
 ## Known Bugs
