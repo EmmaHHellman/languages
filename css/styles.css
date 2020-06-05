@@ -8,3 +8,10 @@ body {
 #languagemessage {
   display: none;
 }
+
+img {
+  max-height: 400px;
+  max-width: 300px;
+  border: 2px solid red;
+  border-radius: 25px;
+}
