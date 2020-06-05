@@ -33,3 +33,7 @@ h2.card-title {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+#survey select {
+  margin-bottom: 15px;
+}
