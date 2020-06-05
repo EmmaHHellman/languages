@@ -34,14 +34,33 @@ $(document).ready(function() {
     const c10 = food === "burritos"  && languages === "objectoriented" && band === "thebeatles" && celebrity === "mileycyrus" && drink === "tea";
     const c11 = food === "salad"  && languages === "objectoriented" && band === "thebeatles" && celebrity === "mileycyrus" && drink === "tea";
 
+    //All correct for swift
+    const swift1 = food === "salad" && languages === "generalpurpose" && band === "linkinpark" && celebrity === "willsmith" && drink === "soda";
+    //Four correct for swift
+    const swift2 = food === "salad" && languages === "generalpurpose" && band === "linkinpark" && celebrity === "willsmith" && drink === "tea";
+    const swift3 = food === "salad" && languages === "generalpurpose" && band === "linkinpark" && celebrity === "willsmith" && drink === "coffee";
+    const swift4 = food === "salad" && languages === "generalpurpose" && band === "linkinpark" && celebrity === "britneyspears" && drink === "soda";
+    const swift5 = food === "salad" && languages === "generalpurpose" && band === "linkingpark" && celebrity === "mileycyus" && drink === "soda";
+    const swift6 = food === "salad" && languages === "generalpurpose" && band === "thebeatles" && celebrity === "willsmith" && drink === "soda";
+    const swift7 = food === "salad" && languages === "generalpurpose" && band === "pinkfloyd" && celebrity === "willsmith" && drink === "soda";
+    const swift8 = food === "salad" && languages === "scripting" && band === "linkinpark" && celebrity === "willsmith" && drink === "soda";
+    const swift9 = food === "salad"  && languages === "objectorieneted" && band === "linkinpark" && celebrity === "willsmith" && drink === "soda";
+    const swift10 = food === "burritos"  && languages === "generalpurpose" && band === "linkinpark" && celebrity === "willsmith" && drink === "soda";
+    const swift11 = food === "tacos"  && languages === "generalpurpose" && band === "linkinpark" && celebrity === "willsmith" && drink === "soda";
 
     if (javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
       $("#favoritelanague").text("javascript");
       $("#languagemessage").show();
+    } else if (javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
+      $("#favoritelanague").text("C#");
+      $("#languagemessage").show();
+    } else if ( javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
+      $("#favoritelanague").text("Swift");
+      $("#languagemessage").show();
     } else {
       $("#favoritelanague").text("something");
       $("#languagemessage").show();
-    } 
+    }
 
     event.preventDefault();
 
