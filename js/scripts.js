@@ -64,7 +64,7 @@ $(document).ready(function() {
         $("#languagemessage").show();
       } else if (none) {
         $("#favoritelanague").text("You would like to learn a variety of languages");
-        
+        $("#languagemessage").hide();
       }
 
       event.preventDefault();
