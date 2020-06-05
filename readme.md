@@ -6,7 +6,7 @@
 
 ## Description
 
-_The website allows users to select answers from a variety of survey questions. Depending on their responses, a programming language suited for them will be generated._
+_The website allows users to select answers from a variety of survey questions. Depending on their responses, a programming language suited for them will be generated. You can check out the programming language suggester here https://emmahhellman.github.io/languages/_
 
 ## Setup/Installation Requirements
 
