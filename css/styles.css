@@ -37,3 +37,8 @@ h2.card-title {
 #survey select {
   margin-bottom: 15px;
 }
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
