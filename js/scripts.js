@@ -51,14 +51,14 @@ $(document).ready(function() {
     if (javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
       $("#favoritelanague").text("javascript");
       $("#languagemessage").show();
-    } else if (javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
+    } else if (c1 || c2 || c3 || c4 || c5 || c6 || c7 || c8 || c9 || c10 || ct11) {
       $("#favoritelanague").text("C#");
       $("#languagemessage").show();
-    } else if ( javascript1 || javascript2 || javascript3 || javascript4 || javascript5 || javascript6 || javascript7 || javascript8 || javascript9 || javascript10 || javascript11) {
+    } else if ( swift1 || swift2 || swift3 || swift4 || swift5 || swift6 || swift7 || swift8 || swift9 || swift10 || swift11) {
       $("#favoritelanague").text("Swift");
       $("#languagemessage").show();
     } else {
-      $("#favoritelanague").text("something");
+      $("#favoritelanague").text("You would like a variety of languages");
       $("#languagemessage").show();
     }
 
