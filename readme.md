@@ -1,4 +1,4 @@
-# _Portfolio Website_
+# _Programming Language Suggester_
 
 #### _A website for picking a user's favorite programming language, June 5, 2020_
 
