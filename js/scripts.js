@@ -54,16 +54,16 @@ $(document).ready(function() {
       const none = !javascript || !c || !swift;
 
       if (javascript) {
-        $("#favoritelanague").text("javascript");
+        $("#favoritelanguage").text("javascript");
         $("#languagemessage").show();
       } else if (c) {
-        $("#favoritelanague").text("C#");
+        $("#favoritelanguage").text("C#");
         $("#languagemessage").show();
       } else if (swift) {
-        $("#favoritelanague").text("Swift");
+        $("#favoritelanguage").text("Swift");
         $("#languagemessage").show();
       } else if (none) {
-        $("#favoritelanague").text("You would like to learn a variety of languages");
+        $("#favoritelanguage").text("You would like to learn a variety of languages");
         $("#languagemessage").hide();
       }
 
