@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $("#").submit(function(event) {
-    //const colorInput = $("input#color").val();
-    
-    //$(".color").text(colorInput)
-
-    //event.preventDefault();
+  $("form#survey").submit(function(event) {
+    const food = $("select#food").val();
+    const languages = $("select#languages").val();
+    const band = $("select#band").val();
+    const celebrity = $("select#celebrity").val();
+    const drink = $("select#drink").val();
   });
 });
