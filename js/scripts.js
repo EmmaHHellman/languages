@@ -63,7 +63,7 @@ $(document).ready(function() {
         $("#favoritelanguage").text("Swift");
         $("#languagemessage").show();
       } else if (none) {
-        $("#favoritelanguage").text("You would like to learn a variety of languages");
+        $("#favoritelanguage").text("You would like to learn a variety of languages including swift, javascript and csharp.");
         $("#languagemessage").hide();
       }
 
